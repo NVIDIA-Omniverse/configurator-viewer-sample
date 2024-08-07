@@ -1,0 +1,15 @@
+{
+    "$comment": "source can be either 'gfn' or 'local'",
+    "source": "local",
+    "gfn": {
+        "$comment": "Required props if source is set to 'gfn'.",
+        "catalogClientId": "",
+        "clientId": "",
+        "cmsId": 1,
+        "prewarmed": false
+    },
+    "local": {
+        "$comment": "Required props if source is set to 'local'.",
+        "server": "127.0.0.1"
+    }
+}
